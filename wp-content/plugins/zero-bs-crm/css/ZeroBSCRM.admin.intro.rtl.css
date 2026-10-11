@@ -1,0 +1,361 @@
+/*!
+ * Jetpack CRM: Extension Manager Styles
+ * https://jetpackcrm.com
+ */
+.admin_page_zerobscrm-plugin #zbs-welcome .container {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 0;
+  /*
+   * The card is what the layout below responds to, not the window: its
+   * width depends on whether WordPress' admin sidebar is expanded, folded
+   * or off-canvas.
+   */
+  container-type: inline-size;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome .container .intro {
+  background-color: #fff;
+  border-top: 2px solid #e1e1e1;
+  border-right: 2px solid #e1e1e1;
+  border-left: 2px solid #e1e1e1;
+  border-radius: 2px;
+  position: relative;
+  padding-top: 40px;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome .intro .bullie {
+  background-color: #fff;
+  border: 2px solid #e1e1e1;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  padding: 18px 14px 0 14px;
+  position: absolute;
+  top: -58px;
+  right: 50%;
+  margin-right: -55px;
+}
+.admin_page_zerobscrm-plugin .bullie img {
+  height: 80px;
+  margin-right: 7px;
+  margin-top: -4px;
+  width: auto;
+}
+.admin_page_zerobscrm-plugin .intro .block {
+  padding: 30px;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome h1 {
+  color: #222;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+.admin_page_zerobscrm-plugin {
+  /*
+   * The two hero logos. The padding is deliberately uneven because the eye
+   * measures ink to ink: the card already contributes 20px above the mark
+   * (.intro's 40px plus .block's 30px, less the 50px the block is pulled up
+   * by), and the h6 below starts its glyphs 11px into a 25.6px line box.
+   * Each mark gets 50px of visual space above and below, less those two
+   * amounts; Woo gets 60px for its clear-space rule (i/welcome-to-zbs/LOGOS.md).
+   */
+}
+.admin_page_zerobscrm-plugin .jpcrm-dash-hero-logo {
+  box-sizing: content-box;
+  max-width: 100%;
+  height: auto;
+}
+.admin_page_zerobscrm-plugin #jetpack-crm-welcome {
+  padding: 30px 0 39px;
+}
+.admin_page_zerobscrm-plugin #woocommerce-logo {
+  padding: 40px 0 49px;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome #first-customer {
+  border-right: 2px solid #e1e1e1;
+  border-left: 2px solid #e1e1e1;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.admin_page_zerobscrm-plugin #first-customer img {
+  max-width: 80%;
+}
+.admin_page_zerobscrm-plugin a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.admin_page_zerobscrm-plugin #first-customer a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.admin_page_zerobscrm-plugin #action-buttons {
+  padding: 20px;
+  background: #fff;
+  min-height: 175px;
+  border-right: 2px solid #e1e1e1;
+  border-left: 2px solid #e1e1e1;
+  border-bottom: 2px solid #e1e1e1;
+}
+.admin_page_zerobscrm-plugin #action-buttons h6 {
+  margin-bottom: 20px;
+}
+.admin_page_zerobscrm-plugin .zbs-button-wrap {
+  text-align: center;
+}
+.admin_page_zerobscrm-plugin {
+  /*
+   * .jpcrm-button is the plugin-wide component and sets `white-space: nowrap`,
+   * which holds the WooCommerce card's long label on one 380px line -- wider
+   * than a phone. Relaxed for this page only; the component is shared, and the
+   * same problem on other pages is not this change's to fix.
+   */
+}
+.admin_page_zerobscrm-plugin #zbs-welcome .jpcrm-button {
+  max-width: 100%;
+  white-space: normal;
+  text-wrap: balance;
+}
+.admin_page_zerobscrm-plugin .zbs-button-wrap .btn-cta {
+  background-color: #00b1ff;
+  border-color: #00b1ff;
+  color: #fff;
+}
+.admin_page_zerobscrm-plugin .zbs-button-wrap .btn-hta {
+  background-color: #eee;
+  border-color: #eee;
+  color: #666;
+}
+.admin_page_zerobscrm-plugin .zbs-button-wrap .btn-bta {
+  background-color: #21ba45;
+  border-color: #21ba45;
+  color: #fff;
+}
+.admin_page_zerobscrm-plugin .zbs-button-wrap .btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 28px;
+}
+.admin_page_zerobscrm-plugin {
+  /*
+   * These two halves carry the welcome card's button pair, one button each,
+   * centred within its half. They were 60/40, which put the buttons 135px and
+   * 203px from the card's centre rather than an equal distance either side.
+   */
+}
+.admin_page_zerobscrm-plugin .left {
+  float: right;
+  width: 50%;
+  padding-left: 10px;
+}
+.admin_page_zerobscrm-plugin .right {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+.admin_page_zerobscrm-plugin .clear {
+  clear: both;
+}
+.admin_page_zerobscrm-plugin .margin-top30 {
+  margin-top: 30px !important;
+}
+.admin_page_zerobscrm-plugin .zbs-features {
+  padding-top: 0 !important;
+  padding-bottom: 30px !important;
+  border-bottom: 2px solid #e1e1e1;
+}
+.admin_page_zerobscrm-plugin .zbs-features h5 {
+  color: #222;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  font-weight: 900;
+}
+.admin_page_zerobscrm-plugin .zbs-features p {
+  font-size: 14px;
+  margin-right: 68px !important;
+}
+.admin_page_zerobscrm-plugin .zbs-features .feature-block {
+  float: right;
+  width: 50%;
+  padding-bottom: 35px;
+  overflow: auto;
+}
+.admin_page_zerobscrm-plugin .zbs-features .feature-block img {
+  float: right;
+  max-width: 46px;
+}
+.admin_page_zerobscrm-plugin .zbs-features .feature-block h5 {
+  margin-right: 68px;
+}
+.admin_page_zerobscrm-plugin zbs-features .feature-block p {
+  margin: 0;
+  margin-right: 68px;
+}
+.admin_page_zerobscrm-plugin .zbs-features .feature-block.first {
+  padding-left: 20px;
+  clear: both;
+}
+.admin_page_zerobscrm-plugin .zbs-features .feature-block.last {
+  padding-right: 20px;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome .upgrade-cta {
+  border-top: 0;
+  border-bottom: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome .upgrade-cta .upgrade-cta__features {
+  display: inline-block;
+  text-align: right;
+  max-width: 75%;
+}
+.admin_page_zerobscrm-plugin .upgrade-cta ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome .upgrade-cta ul li {
+  display: block;
+  width: 50%;
+  margin: 0 0 8px 0;
+  padding: 0 40px 0 0;
+}
+.admin_page_zerobscrm-plugin #zbs-welcome .upgrade-cta ul li .dashicons {
+  color: #2a9b39;
+  margin-left: 5px;
+}
+.admin_page_zerobscrm-plugin .upgrade-cta h2 {
+  color: #000;
+  font-size: 20px;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+.admin_page_zerobscrm-plugin .upgrade-cta .right h2 span {
+  display: inline-block;
+  border-bottom: 1px solid #555;
+  padding: 0 15px 12px;
+}
+.admin_page_zerobscrm-plugin .upgrade-cta .right .price {
+  padding: 26px 0;
+  text-align: center;
+}
+.admin_page_zerobscrm-plugin .price .dollar {
+  font-size: 12px;
+}
+.admin_page_zerobscrm-plugin .upgrade-cta .right .price .amount {
+  font-size: 48px;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+}
+.admin_page_zerobscrm-plugin .upgrade-cta .right .price .term {
+  font-size: 12px;
+  display: inline-block;
+}
+.admin_page_zerobscrm-plugin .pro {
+  font-size: 10px;
+  background: #00b2ff;
+  margin-right: 0;
+  padding: 2px;
+  color: #fff;
+  border-radius: 2px;
+}
+.admin_page_zerobscrm-plugin .pro-elite {
+  font-size: 10px;
+  background: #21ba45;
+  margin-right: 5px;
+  padding: 2px;
+  color: #fff;
+  border-radius: 2px;
+}
+.admin_page_zerobscrm-plugin .go-elite {
+  color: #9c9c9c;
+  font-size: 11px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+.admin_page_zerobscrm-plugin .elite-package {
+  background-color: #21ba45;
+  border-color: #21ba45;
+  color: #fff;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 3px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+.admin_page_zerobscrm-plugin .elite-package:hover {
+  color: #fff;
+}
+.admin_page_zerobscrm-plugin .testimonial-block img {
+  border-radius: 50%;
+  float: right;
+  max-width: 80px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+.admin_page_zerobscrm-plugin .testimonial-block {
+  margin-bottom: 50px;
+}
+.admin_page_zerobscrm-plugin .testimonial-block p {
+  margin: 0 140px 12px 0;
+  margin-right: 110px !important;
+  font-size: 15px;
+  line-height: 23px;
+  color: #868686;
+}
+.admin_page_zerobscrm-plugin .who {
+  color: #000 !important;
+}
+.admin_page_zerobscrm-plugin .final-block {
+  background: #eee;
+  min-height: 140px;
+  border: 2px solid #e1e1e1;
+  padding: 40px;
+}
+.admin_page_zerobscrm-plugin .final-block .zbs-button-wrap {
+  margin-top: 40px;
+}
+.admin_page_zerobscrm-plugin {
+  /*
+   * Below this the card is too narrow for anything two-up: the feature blocks
+   * would be left with about 190px of text beside a 46px image and a 68px
+   * indent, and the button pair's halves would be narrower than the buttons
+   * standing in them. Everything goes to one column together -- the pair reads
+   * fine stacked on a card this narrow, and one threshold is easier to keep
+   * honest than three.
+   */
+}
+@container (max-width: 560px) {
+  .admin_page_zerobscrm-plugin .zbs-button-wrap .left,
+  .admin_page_zerobscrm-plugin .zbs-button-wrap .right {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .admin_page_zerobscrm-plugin .zbs-button-wrap .left {
+    margin-bottom: 16px;
+  }
+  .admin_page_zerobscrm-plugin .zbs-features .feature-block,
+  .admin_page_zerobscrm-plugin .zbs-features .feature-block.first,
+  .admin_page_zerobscrm-plugin .zbs-features .feature-block.last {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .admin_page_zerobscrm-plugin #zbs-welcome .upgrade-cta .upgrade-cta__features {
+    max-width: 100%;
+  }
+  .admin_page_zerobscrm-plugin #zbs-welcome .upgrade-cta ul li {
+    width: 100%;
+  }
+}

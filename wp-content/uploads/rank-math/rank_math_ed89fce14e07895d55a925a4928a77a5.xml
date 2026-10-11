@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//primeodontologia.com.br/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://primeodontologia.com.br/portfolio_cat/branding/</loc>
+		<lastmod>2016-02-12T12:40:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://primeodontologia.com.br/portfolio_cat/graphic/</loc>
+		<lastmod>2016-02-12T12:40:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://primeodontologia.com.br/portfolio_cat/package/</loc>
+		<lastmod>2016-02-12T12:39:51+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://primeodontologia.com.br/portfolio_cat/video/</loc>
+		<lastmod>2016-02-12T12:39:51+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://primeodontologia.com.br/portfolio_cat/web/</loc>
+		<lastmod>2016-02-12T12:33:44+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://primeodontologia.com.br/portfolio_cat/web-design/</loc>
+		<lastmod>2016-02-12T12:38:55+00:00</lastmod>
+	</url>
+</urlset>
