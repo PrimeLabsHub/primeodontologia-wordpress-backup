@@ -1,0 +1,24 @@
+# OS Metadata
+.DS_Store
+**/.DS_Store
+Thumbs.db
+._*
+
+# WordPress Runtime Cache & Upgrades
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/debug.log
+*.log
+
+# WordPress Studio SQLite Database & Ephemeral Files
+/wp-content/database/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+__wp__/
+/tmp/
+
+# Editor & System
+.vscode/
+.idea/
+*.swp
